@@ -4,7 +4,7 @@ import java.io.IOException;
 /**
  * Created by chenzhitao on 2017/11/20
  */
-public abstract class InputStream {
+public abstract class InputStreamDemo {
     private static final int MAX_SKIP_BUFFER_SIZE = 2048;
 
     public abstract int read() throws IOException;
