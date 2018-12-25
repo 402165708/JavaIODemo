@@ -1,4 +1,4 @@
-package ali;
+package suanfadaolun;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -6,9 +6,11 @@ import java.util.Queue;
 import java.util.Stack;
 
 /**
+ * 二叉树的遍历
+ *
  * Created by chenzhitao on 2018/9/7
  */
-public class BTree {
+public class BinaryTree {
 
 
     public static void main(String[] args) {
@@ -140,7 +142,7 @@ public class BTree {
         if (root != null) {
             resultList.add(root.value);
             preOrderTraversal(root.leftChild, resultList);
-            preOrderTraversal(root.leftChild, resultList);
+            preOrderTraversal(root.rightChild, resultList);
         }
     }
 
@@ -948,6 +950,11 @@ public class BTree {
             }
         }
     }
+
+    public
+
+
+
 
     static class TreeNode {
         int value;
