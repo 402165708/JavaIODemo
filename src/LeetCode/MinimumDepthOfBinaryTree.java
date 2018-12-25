@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * @Author : chenzhitao
  * @Date : Created in 17:33 2018/12/25
  */
-public class Title1 {
+public class MinimumDepthOfBinaryTree {
 
 
     public int minimumDepth(TreeNode root) {

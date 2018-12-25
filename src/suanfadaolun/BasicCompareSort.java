@@ -11,11 +11,12 @@ public class BasicCompareSort {
     public static void main(String[] args) {
         BasicCompareSort basicSort = new BasicCompareSort();
 //        int[] arr = {3, 1, 9, 5, 19, 10, 2, 13, 11};
-        int[] arr = new int[10];
-        arr[2] = 2;
-        arr[3] = 2;
-        arr[4] = 2;
-        basicSort.quickSort(arr, 0, arr.length - 1, true);
+//        int[] arr = new int[10];
+//        arr[2] = 2;
+//        arr[3] = 2;
+//        arr[4] = 2;
+        int[] arr = {2,1};
+        basicSort.quickSort(arr, 0, arr.length - 1, false);
 
         for (int i : arr) {
             System.out.print(i + " ");
